@@ -1,0 +1,245 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.container{
+    width: 100%;
+    height: 100vh;
+}
+
+.container .logo{
+    position: absolute;
+    top: 50px;
+    left: 90px;
+}
+
+.container .logo a{
+    text-decoration: none;
+    font-family: Arial;
+    font-weight: bold;
+    font-size: 2rem;
+    color: #622727;
+}
+
+.logocolor{
+    color: #a95808;
+}
+
+.container .searcharea{
+    position: fixed;
+	right: 90px;
+	top: 50px;
+	width:170px;
+	height: 45px;
+	background-color:#fff;
+	display: flex;
+	justify-content:center;
+	align-items: center;
+	border-radius: 10% 10% 10% 10% / 50% 50% 50% 50%;
+	box-shadow: 2px 2px 30px rgba(167, 158, 245, 0.2);
+	box-sizing: border-box;
+	z-index: 1;
+	border:1px solid rgba(167, 158, 245, 0.1);
+}
+
+.container .searcharea input{
+    width: 90px;
+    height: 20px;
+    border: none;
+    outline: none;
+    padding: 10px 5px;
+    margin: 0px 10px;
+    font-family: roboto;
+    letter-spacing: 1px;
+    font-size: 0.8rem;
+}
+
+.container .section1{
+    position: absolute;
+    left: 15%;
+    top: 50%;
+    transform: translate(-15%, -50%);
+}
+
+.section1 img{
+    height: 300px;
+}
+
+.sectionbutton{
+    position: absolute;
+    left: 90%;
+    top: 50%;
+    transform: translate(-90%, -50%);
+}
+
+.sectionbutton h1,h2{
+    font-size: 4rem;
+    color: #3e3838;
+    font-style: italic;
+}
+
+.sectionbutton h1{
+    letter-spacing: 30px;
+}
+
+.color1{
+    color: #a95808;
+}
+
+.btn1{
+    width: 130px;
+    height: 40px;
+    background-color: #00ff;
+    color: #fff;
+    margin-top: 20px;
+    border-radius: 20px;
+    border: none;
+    outline: none;
+    font-size: 0.8rem;
+    font-weight: bold;
+    transition: 0,5s;
+}
+
+.btn1:hover{
+    background-color: #3e3838;
+}
+
+.productsection{
+    width: 85%;
+    background-color: #fff;
+    box-shadow: 2px 2px 30px rgba(0,0,0,0.5);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin: 30px auto;
+    padding:40px 20px;
+	margin-top: -60px;
+	position: relative;
+	background-size:1000px;
+	border-radius: 10px;
+}
+
+.productsection h3{
+    text-align: center;
+    font-size: 2.4rem;
+    font-weight: bold;
+
+}
+
+.productsection .product{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 10px 0px;
+    width: 100%;
+}
+
+.productbox img{
+    height: 180px;
+}
+
+.productsection .product .productbox{
+    width: 250px;
+    height: 330px;
+    background-color: #fff;
+    box-shadow: 2px 2px 30px rgba(167, 158, 245, 0.2);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 10px 30px;
+    border-radius: 10px;
+}
+
+.productsection .product .productbox p{
+    color: #3e3838;
+    font-size: 0.8rem;
+    margin-top: 10px;
+}
+
+.productsection .product .productbox a{
+    text-decoration: none;
+    color: #622727;
+    font-size: 1rem;
+    font-family: roboto;
+    margin-top: 10px;
+}
+
+.btn2{
+    width: 140px;
+    height: 40px;
+    background-color: #6837d2;
+    color: #fff;
+    padding: 10px 30px;
+    border-radius: 30px;
+    transition: 0.5s;
+    margin-top: 20px;
+}
+
+.btn2:hover{
+    background-color: #dcac7c;
+}
+
+.productsection .product .productbox a:last-child{
+    color: #fff;
+}
+
+.about{
+    display: flex;
+    width: 85%;
+    margin: 50px auto;
+    justify-content: space-around;
+    align-items: center;
+    padding: 30px;
+    margin-bottom: 150px !important;
+}
+
+.aboutbox{
+    width: 40%;
+    font-family: myriad pro;
+}
+
+.aboutbox img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.aboutbox h1{
+	color:#333333;
+	font-weight: 700;
+	font-size:3rem;
+	margin:0px;
+}
+.aboutbox h4{
+	color: #333333;
+	font-weight: 400;
+	font-size:2rem;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+
+.aboutbox p{
+	font-size: 1rem;
+	color:#bdbdbd;
+	letter-spacing: 0.5px;
+
+}
+
+
+
+footer{
+    width: 100%;
+    background-color: #000;
+    padding: 20px;
+}
+
+footer p{
+    text-align: center;
+    color: #fff;
+}
